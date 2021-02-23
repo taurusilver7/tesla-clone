@@ -51,6 +51,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - reduxjs/toolkit
 
 * The redux managed the state of the application with the authentication, hosting & storage managed by firebase.
+* The reducer manages the userSlice with login & logout actions.
 
 ## Available Scripts
 
