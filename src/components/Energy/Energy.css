@@ -1,0 +1,92 @@
+.energy {
+  display: flex;
+  background-color: transparent;
+  background: none;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 15px;
+  margin-top: 15px;
+  z-index: 100;
+}
+
+.energy__logo {
+  object-fit: contain;
+  position: fixed;
+  top: 0;
+  flex: 0.3;
+  height: 25px;
+  width: 100px;
+  margin-top: 2px;
+  filter: brightness(0) invert(1);
+}
+
+.energy__center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.energy__center > p {
+  margin: 5px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  color: white;
+}
+
+.energy__center > p:hover {
+  color: black;
+}
+
+.energy__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.energy__right > a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.energy__right > p {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+  transition: all 0.3s;
+}
+
+.energy__right > p:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.MuiSvgIcon-root {
+  margin-right: 30px;
+  margin-top: -5px;
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.energy__link--hidden {
+  visibility: hidden;
+}
+
+.energy__itemContainer {
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+  height: 100vh;
+}
+
+@media (max-width: 1024px) {
+  .energy__center > p {
+    visibility: hidden;
+  }
+}
