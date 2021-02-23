@@ -1,6 +1,56 @@
-# Getting Started with Create React App
+# Tesla Clone
+
+> Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and businesses.
+
+## Components
+
+- Header
+- Item (Button component included)
+- Menu (MenuItem component included)
+- ButtonPrimary & ButtonSecondary components
+- Menu (MenuItem)
+- Login
+- Signup
+- Account
+- Energy (Home & EnergyItem components included)
+
+## Stock
+
+[logo](https://assets.website-files.com/5e8fceb1c9af5c3915ec97a0/5ec2f037975ed372da9f6286_Tesla-Logo-PNG-HD.png)
+
+[tesla roadster-top](https://s.wsj.net/public/resources/images/ON-CV986_roadst_M_20190207105711.jpg)
+[roadster-main](https://www.tesla.com/sites/default/files/images/roadster/roadster-social.jpg)
+[roadster-back](https://media.wired.com/photos/5a0e6fe20eb42647bdcf336f/master/w_2400,h_1350,c_limit/Roadster_Rear_34_Studio.jpg)
+
+[energy-0](https://www.tesla.com/sites/default/files/energy-page/energy-hero/D-energy-hero.jpg)
+[energy-1](https://www.tesla.com/sites/default/files/energy-page/energy-solar/D-solarroof.jpg)
+[energy-2](https://www.tesla.com/sites/default/files/energy-page/energy-powerwall/D-powerwall.jpg)
+[energy-3](https://www.tesla.com/sites/default/files/energy-page/energy-commercial/D-commercial.jpg)
+
+[architecture](https://tesla-cdn.thron.com/delivery/public/image/tesla/b7e5f13a-e8f8-4428-b29e-b2ba6cf5220b/bvlatuR/std/1920x1080/MS-Safety-Hero-Desktop)
+[arch-page-banner](https://www.tesla.com/sites/default/files/enterprise/desktop-hero-fleet.jpg)
+
+[model-s](https://www.tesla.com/tesla_theme/assets/img/mytesla/v3/header-nocar-models@2x.jpg?20170815)
+[model-3](https://www.tesla.com/tesla_theme/assets/img/mytesla/v3/header-nocar-modelx@2x.jpg?20170815)
+[model-x](https://smartcdn.prod.postmedia.digital/driving/wp-content/uploads/2015/09/model-x-10.jpg)
+[model-x-2](https://tesla-cdn.thron.com/delivery/public/image/tesla/d6748b90-2f77-4791-bc9d-dd8962ee7721/bvlatuR/std/0x0/modelx@2)
+
+[model-Y](https://cleantechnica.com/files/2020/04/Model-S.png)
+[model Y 2](https://cdn.jdpower.com/ChromeImageGallery/Expanded/White/640/2020TSS02_640/2020TSS020003_640_03.jpg)
+[model-Y 3](https://www.motortrend.com/uploads/sites/5/2019/03/Tesla-Model-Y-red-.jpg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Dependencies
+
+- firebase
+- redux
+- react-router-dom
+- material-ui/core
+- material-ui/icons
+- reduxjs/toolkit
+
+* The redux managed the state of the application with the authentication, hosting & storage managed by firebase.
 
 ## Available Scripts
 
