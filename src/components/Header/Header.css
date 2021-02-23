@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  background-color: transparent;
+  background: none;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 15px;
+  margin-top: 15px;
+  z-index: 100;
+}
+
+.header__logo {
+  object-fit: contain;
+  flex: 0.3;
+  height: 25px;
+  width: 100px;
+  margin-top: 2px;
+}
+
+.header__center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.header__center > p {
+  margin: 5px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.header__center > p:hover {
+  color: white;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.header__right > a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.header__right > p {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+  transition: all 0.3s;
+}
+
+.header__right > p:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.MuiSvgIcon-root {
+  margin-right: 30px;
+  margin-top: -5px;
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.header__link--hidden {
+  visibility: hidden;
+}
+
+@media (max-width: 1024px) {
+  .header__center > p {
+    visibility: hidden;
+  }
+  .header__right > p {
+    visibility: hidden;
+  }
+}
