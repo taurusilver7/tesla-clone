@@ -1,0 +1,49 @@
+.energyItem {
+  height: 67vh;
+  width: 98.82vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+.energyItem__container {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 2rem;
+  margin-bottom: 40px;
+}
+
+.energyItem__left {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 3rem;
+  width: 500px;
+}
+.energyItem__title {
+  max-width: 450px;
+}
+
+.energyItem__text {
+  margin-left: 30px;
+}
+
+.energyItem__text > h3 {
+  font-weight: 100;
+  color: gray;
+}
+
+.energyItem__buttons {
+  display: flex;
+  margin-top: 10px;
+  width: 60%;
+}
+
+.energyItem__right {
+  display: flex;
+  padding: 20px 30px;
+  padding-left: -30px;
+}
