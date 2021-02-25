@@ -2,6 +2,10 @@
 
 > Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and businesses.
 
+<p align='center'>
+  <img src='./src/assets/tesla.png' alt='tesla' width='400' />
+</p>
+
 ## Components
 
 - Header
