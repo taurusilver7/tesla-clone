@@ -1,6 +1,9 @@
 # Tesla Clone
 
 > Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and businesses.
+<p align='center'>
+	<img src='./src/assets/tesla.png' width='300' />
+</p>
 
 ## Components
 
@@ -39,7 +42,7 @@
 [model Y 2](https://cdn.jdpower.com/ChromeImageGallery/Expanded/White/640/2020TSS02_640/2020TSS020003_640_03.jpg)
 [model-Y 3](https://www.motortrend.com/uploads/sites/5/2019/03/Tesla-Model-Y-red-.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Dependencies
 
